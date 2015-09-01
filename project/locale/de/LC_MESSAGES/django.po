@@ -24,7 +24,7 @@ msgstr "Start"
 
 #: manager_frontend/crumbs.py:10 templates/skeleton.html:49
 msgid "Bios"
-msgstr ""
+msgstr "BIOS"
 
 #: manager_frontend/crumbs.py:11 templates/skeleton.html:52
 msgid "Configuration"
@@ -32,11 +32,11 @@ msgstr "Konfiguration"
 
 #: manager_frontend/crumbs.py:12 templates/skeleton.html:51
 msgid "Logs"
-msgstr ""
+msgstr "Einträge"
 
 #: manager_frontend/crumbs.py:13
 msgid "Rom by system"
-msgstr "Roms nach System"
+msgstr "Rom nach System"
 
 #: manager_frontend/crumbs.py:14
 msgid "{{ system_name }}"
@@ -48,15 +48,15 @@ msgstr "Anwenden"
 
 #: manager_frontend/forms/bios.py:76
 msgid "Bios file"
-msgstr "Biosdatei"
+msgstr "BiOS-Datei"
 
 #: manager_frontend/forms/bios.py:98
 msgid "Your file does not seem to be a supported Bios"
-msgstr "Die Biosdatei wird nicht unterstützt"
+msgstr "Die BiOS-Datei wird nicht unterstützt"
 
 #: manager_frontend/forms/bios.py:102
 msgid "Your file does not have a correct MD5 checksum"
-msgstr "Die Biosdatei hat keine korrekte MD5 Checksumme"
+msgstr "Die BIOS-Datei hat keine korrekte MD5 Checksumme"
 
 #: manager_frontend/forms/config.py:22
 msgid "Content"
@@ -69,11 +69,11 @@ msgstr "Backup erstellen vor dem Speichern"
 
 #: manager_frontend/forms/roms.py:60
 msgid "Rom file"
-msgstr "Romdatei"
+msgstr "ROM-Datei"
 
 #: manager_frontend/forms/roms.py:80
 msgid "Your file does not seem to be a valid Rom for this system"
-msgstr "Die Romdatei ist nicht gültig für dieses System"
+msgstr "Die ROM-Datei ist nicht gültig für dieses System"
 
 #: manager_frontend/views/bios.py:91 manager_frontend/views/roms.py:116
 msgid "File has been uploaded: {}"
@@ -89,7 +89,7 @@ msgstr "Datei wurde gesichert vor dem editieren"
 
 #: manager_frontend/views/config.py:76
 msgid "File has been edited"
-msgstr "Datei wurde editiert"
+msgstr "Datei wurde bearbeitet"
 
 #: settings.py:114
 msgid "English"
@@ -105,29 +105,30 @@ msgstr "Deutsch"
 
 #: templates/404.html:6 templates/404.html.py:14
 msgid "Error 404"
-msgstr ""
+msgstr "Fehler 404"
 
 #: templates/404.html:6 templates/404.html.py:14
 msgid "Not found"
-msgstr ""
+msgstr "Nciht gefunden"
 
 #: templates/404.html:15
 msgid "The ressource you tried to reach does not exists"
-msgstr ""
+msgstr "Die angeforderte Ressource ist nicht vorhanden"
 
 #: templates/500.html:6 templates/500.html.py:14
 msgid "Error 500"
-msgstr ""
+msgstr "Fehler 500"
 
 #: templates/500.html:6 templates/500.html.py:14
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Interner Serverfehler"
 
 #: templates/500.html:15
 msgid ""
 "The server encountered an internal server error or misconfiguration and was "
 "unable to complete your request."
-msgstr ""
+msgstr "Der Server hat einen internen Serverfehler oder Falschkonfiguration festgestellt und konnte "
+"die Anfrage nicht bearbeiten."
 
 #: templates/manager_frontend/bios_list.html:6
 #: templates/manager_frontend/config_form.html:13
@@ -142,11 +143,11 @@ msgstr "Pfad"
 #: templates/manager_frontend/rom_list.html:7
 #: templates/manager_frontend/systems_list.html:7
 msgid "Total"
-msgstr ""
+msgstr "Gesamt"
 
 #: templates/manager_frontend/bios_list.html:31
 msgid "Upload a bios"
-msgstr "Bios hochladen"
+msgstr "BIOS hochladen"
 
 #: templates/manager_frontend/bios_list.html:61
 #: templates/manager_frontend/bios_list.html:90
@@ -187,11 +188,11 @@ msgstr "Speichern"
 
 #: templates/manager_frontend/home.html:14
 msgid "Manage all supported <strong>Bios</strong> files for emulated systems"
-msgstr "Verwalte alle unterstützten <strong>Bios</strong> Dateien für emulierte Systeme"
+msgstr "Verwalte alle unterstützten <strong>BIOS</strong> -Dateien für emulierte Systeme"
 
 #: templates/manager_frontend/home.html:22
 msgid "Manage <strong>Rom</strong> files for emulated systems"
-msgstr "Verwalte <strong>Rom</strong> Dateien für emulierte Systeme"
+msgstr "Verwalte <strong>Rom</strong> -Dateien für emulierte Systeme"
 
 #: templates/manager_frontend/home.html:30
 msgid "Read the Recalbox <strong>logs</strong>"
@@ -199,11 +200,11 @@ msgstr "Lese Recalbox <strong>Logs</strong>"
 
 #: templates/manager_frontend/home.html:38
 msgid "Read and edit the Recalbox <strong>Configuration</strong> file"
-msgstr "Lesen und editieren der Recalbox <strong>Konfigurations</strong>-Datei"
+msgstr "Lesen und Bearbeiten der Recalbox <strong>Konfigurations</strong>-Datei"
 
 #: templates/manager_frontend/rom_list.html:31
 msgid "Upload a rom"
-msgstr "Rom hochladen"
+msgstr "ROM hochladen"
 
 #: templates/manager_frontend/rom_list.html:63
 msgid "Size"
@@ -211,7 +212,7 @@ msgstr "Grösse"
 
 #: templates/skeleton.html:50
 msgid "Roms"
-msgstr "Roms"
+msgstr "ROMs"
 
 #: templates/skeleton.html:54
 msgid "Links"
